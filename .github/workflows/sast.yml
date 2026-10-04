@@ -2,7 +2,7 @@ name: SAST
 
 on:
   push:
-    branches: [develop, master]
+    branches: [develop, master, feature/devsecops-pipeline]
   pull_request:
     branches: [develop, master]
   workflow_dispatch:
